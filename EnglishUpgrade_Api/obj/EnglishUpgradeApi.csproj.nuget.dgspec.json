@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\misael.ortiz\\source\\repos\\EnglishUpgradeApi\\EnglishUpgradeApi.csproj": {}
+    "C:\\Users\\misael.ortiz\\source\\repos\\EnglishUpgrade\\EnglishUpgrade_Api\\EnglishUpgradeApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\misael.ortiz\\source\\repos\\EnglishUpgradeApi\\EnglishUpgradeApi.csproj": {
+    "C:\\Users\\misael.ortiz\\source\\repos\\EnglishUpgrade\\EnglishUpgrade_Api\\EnglishUpgradeApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\misael.ortiz\\source\\repos\\EnglishUpgradeApi\\EnglishUpgradeApi.csproj",
+        "projectUniqueName": "C:\\Users\\misael.ortiz\\source\\repos\\EnglishUpgrade\\EnglishUpgrade_Api\\EnglishUpgradeApi.csproj",
         "projectName": "EnglishUpgradeApi",
-        "projectPath": "C:\\Users\\misael.ortiz\\source\\repos\\EnglishUpgradeApi\\EnglishUpgradeApi.csproj",
+        "projectPath": "C:\\Users\\misael.ortiz\\source\\repos\\EnglishUpgrade\\EnglishUpgrade_Api\\EnglishUpgradeApi.csproj",
         "packagesPath": "C:\\Users\\misael.ortiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\misael.ortiz\\source\\repos\\EnglishUpgradeApi\\obj\\",
+        "outputPath": "C:\\Users\\misael.ortiz\\source\\repos\\EnglishUpgrade\\EnglishUpgrade_Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\misael.ortiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

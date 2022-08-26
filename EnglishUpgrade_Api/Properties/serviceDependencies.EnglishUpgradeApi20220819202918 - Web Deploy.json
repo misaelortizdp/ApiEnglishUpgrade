@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "apis1": {
+      "apiEndpoint": "https://englishupgradeapiapi.azure-api.net/",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/EnglishUpgradeApiapi/apis/EnglishUpgradeApi",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/misa-server/databases/DatabaseEnglishUpgrade",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:dbconn",
+      "dynamicId": null
+    }
+  }
+}
