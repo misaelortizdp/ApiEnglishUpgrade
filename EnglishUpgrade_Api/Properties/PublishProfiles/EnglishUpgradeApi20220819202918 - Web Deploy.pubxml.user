@@ -7,12 +7,17 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXXKXJpM2B02lCe5sWjwqrwAAAAACAAAAAAADZgAAwAAAABAAAACGsZUniDcDPsavCoDPe8y5AAAAAASAAACgAAAAEAAAAN1EA9gk8jh7oyJjeocluDaAAAAAs6jiUmIAi/0BBsFUT5xXfsaDA/RPo0drgR1VcbFGfGmMYkKfSsksJVQIhigCd89/FHlMmk5fYNTtVNnxqMMLh7oNimOWt67ZtGQszhpD/nXCXYHb588FWCSPU8McsdchuQbXLHuX8DOYQQi/IPNIYth9Uee0HZqnkp3GTGBY4GEUAAAAJ9/os93ZXaoQzpl400I3wa4wUfk=</EncryptedPassword>
-    <History>True|2022-08-26T17:29:37.3963251Z;False|2022-08-26T12:02:54.1024333-05:00;False|2022-08-26T11:51:33.9288343-05:00;False|2022-08-26T11:43:59.8022590-05:00;False|2022-08-26T11:41:39.1171321-05:00;False|2022-08-26T11:33:45.2075740-05:00;False|2022-08-19T21:29:38.0370767-05:00;False|2022-08-19T21:25:44.2832991-05:00;False|2022-08-19T21:21:40.0453428-05:00;False|2022-08-19T20:59:33.9442093-05:00;True|2022-08-19T20:53:45.0371291-05:00;True|2022-08-19T20:48:57.9728783-05:00;</History>
+    <History>True|2022-08-26T17:54:22.3750555Z;True|2022-08-26T12:41:58.9225395-05:00;True|2022-08-26T12:29:37.3963251-05:00;False|2022-08-26T12:02:54.1024333-05:00;False|2022-08-26T11:51:33.9288343-05:00;False|2022-08-26T11:43:59.8022590-05:00;False|2022-08-26T11:41:39.1171321-05:00;False|2022-08-26T11:33:45.2075740-05:00;False|2022-08-19T21:29:38.0370767-05:00;False|2022-08-19T21:25:44.2832991-05:00;False|2022-08-19T21:21:40.0453428-05:00;False|2022-08-19T20:59:33.9442093-05:00;True|2022-08-19T20:53:45.0371291-05:00;True|2022-08-19T20:48:57.9728783-05:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
     <DestinationConnectionStrings Include="dbconn">
       <Value>Server=tcp:misa-server.database.windows.net,1433%3bInitial Catalog=DatabaseEnglishUpgrade%3bPersist Security Info=False%3bUser ID=misaAdmin%3bPassword=Misaeldevelop12345%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
     </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="EnglishUpgradeApi.Models.EnglishTutoringContext">
+      <Value>Server=tcp:misa-server.database.windows.net,1433%3bInitial Catalog=DatabaseEnglishUpgrade%3bPersist Security Info=False%3bUser ID=misaAdmin%3bPassword=Misaeldevelop12345%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
   </ItemGroup>
 </Project>
