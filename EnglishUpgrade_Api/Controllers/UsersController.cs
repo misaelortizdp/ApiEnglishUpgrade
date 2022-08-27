@@ -71,13 +71,17 @@ namespace EnglishUpgradeApi.Controllers
                               pronunciation = scores.Pronunciation,
                               monolingualism = scores.Monolingualism,
                               spelling = scores.Spelling,
-                              overAllEnglish = scores.OverAllEnglish,
+                              //overAllEnglish = scores.OverAllEnglish,
 
 
                           };
             return Ok(user);
 
         }
+
+
+      
+
 
         // PUT: api/Users/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
